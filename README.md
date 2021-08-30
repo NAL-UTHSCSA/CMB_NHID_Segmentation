@@ -1,5 +1,6 @@
 # CMB_NHID
-Multiclass 2D UNet variant for segmenting cerebral microbleeds and non-hemorrhage iron deposits in the basal ganglia
+These are the scripts for a Multiclass 2D UNet variant for segmenting cerebral microbleeds and non-hemorrhage iron deposits in the basal ganglia. 
+The code is based on Python (3.6) , Keras and TensorFlow (1.15)
 
 
 Needs Python version >= 3.6 
@@ -45,10 +46,10 @@ The training can be a time consuming process, depending on the specified batch s
 For each *TrainTestFile.ini, the code will first train the model using the data of subjects specified in the training list. The model will run for the specified number of epochs. Once all epochs are completed, the trained model will be applied to the specified list of test subjects' data and the predictions will be saved in the specified output_subfolder. 
 
 
-
+Please cite the following if you use this code. 
 https://www.nature.com/articles/s41598-021-93427-x
 
-Last updated July 21 2021
+Last updated Aug 30 2021
 
 Tanweer Rashid
 (rashidt1@uthscsa.edu)
