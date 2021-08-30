@@ -2,17 +2,13 @@
 These are the scripts for a Multiclass 2D UNet variant for segmenting cerebral microbleeds and non-hemorrhage iron deposits in the basal ganglia. 
 The code is based on Python (3.6) , Keras and TensorFlow (1.15)
 
-
 Needs Python version >= 3.6 
 
 Install the required python packages for your virtual environment using the command
 pip install -r requirements.txt
 
 
-
-
-Usage: 
-
+# Usage
 1) Create a comma-separated datafile (.csv) in the following format: 
 Subject01,/path/to/subject01/subject01_groundtruth.nii.gz,/path/to/subject01/subject01_swi.nii.gz,/path/to/subject01/subject01_another_modality.nii.gz
 Subject02,/path/to/subject02/subject02_groundtruth.nii.gz,/path/to/subject02/subject02_swi.nii.gz,/path/to/subject02/subject02_another_modality.nii.gz
@@ -23,7 +19,6 @@ Subject06,/path/to/subject06/subject06_groundtruth.nii.gz,/path/to/subject06/sub
 ...
 ...
 ...
-
 
 Each row should contain the information of a single subject. See Example_Datafile.csv
 
@@ -46,13 +41,21 @@ The training can be a time consuming process, depending on the specified batch s
 For each *TrainTestFile.ini, the code will first train the model using the data of subjects specified in the training list. The model will run for the specified number of epochs. Once all epochs are completed, the trained model will be applied to the specified list of test subjects' data and the predictions will be saved in the specified output_subfolder. 
 
 
-Please cite the following if you use this code. 
+# Conclusions
+This code is experimental, and a work in progress. These scripts were written for a specific purpose, so it may not provide exactly what you need.
+Please contact me if you have any questions regarding the code. I will try to help out as much as possible. 
+
+These scripts were used to produce some of the results that were published in 
 https://www.nature.com/articles/s41598-021-93427-x
+
+Please cite this article if you use this code. Thank you.
 
 Last updated Aug 30 2021
 
-Tanweer Rashid
-(rashidt1@uthscsa.edu)
+Tanweer Rashid, PhD
+rashidt1@uthscsa.edu
+tanweer.rashid@pennmedicine.upenn.edu
+
 
 
 
