@@ -26,16 +26,20 @@ Each row should contain the information of a single subject. See Example_Datafil
 
 3) Generate a series of training/testing configuration files (*TrainTestFile.ini) using the generate_train_test_files_nfold_crossvalidation.py script. 
 Usage is:
+	
 	python3 generate_train_test_files_nfold_crossvalidation.py </path/to/datafile.csv> <POSTFIX_LABEL> <NFOLDS>
 
 Example,	
+	
 	python3 generate_train_test_files_nfold_crossvalidation.py Example_Datafile.csv Expt_X 5
 
 4) Generate the data to be used for model training by running the Multiclass_DataGen_2D_Writer_vDec2020.py script. This is a time consuming process (depending on the number of augmentations specified) and NEEDS TO BE DONE ONLY ONCE. Usage is:	
+	
 	python3 Multiclass_DataGen_2D_Writer_vDec2020.py </path/to/config_file.ini> </path/to/datafile.csv>
 
 
 5) Run each individual train/test session using the training/testing configuration files previously generated:
+	
 	python3 Multiclass_DataGen_2D_Train_vDec2020.py </path/to/config_file.ini> </path/to/train_test_file.ini>
 
 The training can be a time consuming process, depending on the specified batch size, GPU memory availability and training data generated. 
