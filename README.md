@@ -16,11 +16,8 @@ Subject03,/path/to/subject03/subject03_groundtruth.nii.gz,/path/to/subject03/sub
 Subject04,/path/to/subject04/subject04_groundtruth.nii.gz,/path/to/subject04/subject04_swi.nii.gz,/path/to/subject04/subject04_another_modality.nii.gz
 Subject05,/path/to/subject05/subject05_groundtruth.nii.gz,/path/to/subject05/subject05_swi.nii.gz,/path/to/subject05/subject05_another_modality.nii.gz
 Subject06,/path/to/subject06/subject06_groundtruth.nii.gz,/path/to/subject06/subject06_swi.nii.gz,/path/to/subject06/subject06_another_modality.nii.gz
-
 ...
-
 ...
-
 ...
 
 Each row should contain the information of a single subject. See Example_Datafile.csv
@@ -63,7 +60,3 @@ Last updated Aug 30 2021
 Tanweer Rashid, PhD
 rashidt1@uthscsa.edu
 tanweer.rashid@pennmedicine.upenn.edu
-
-
-
-
