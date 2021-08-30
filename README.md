@@ -5,7 +5,7 @@ The code is based on Python (3.6) , Keras and TensorFlow (1.15)
 Needs Python version >= 3.6 
 
 Install the required python packages for your virtual environment using the command
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
 
 # Usage
