@@ -9,3 +9,4 @@ scikit-learn
 scipy==1.5.4 
 sklearn 
 tensorflow-gpu==1.15
+
