@@ -51,7 +51,9 @@ Last updated Dec 09 2021
 
 
 If you use this code, please cite the following: 
+
 Rashid, T., Abdulkadir, A., Nasrallah, I.M., Ware, J.B., Liu, H., Spincemaille, P., Romero, J.R., Bryan, R.N., Heckbert, S.R. and Habes, M., 2021. DEEPMIR: a deep neural network for differential detection of cerebral microbleeds and iron deposits in MRI. Scientific reports, 11(1), pp.1-14.
+
 https://www.nature.com/articles/s41598-021-93427-x
 
 
@@ -59,11 +61,4 @@ If you have any questions or concerns, please feel free to contact me through em
 
 Tanweer Rashid, PhD
 
-rashidt1@uthscsa.edu
-
-tanweer.rashid@pennmedicine.upenn.edu
-
-
-
-
-
+Email: rashidt1@uthscsa.edu, tanweer.rashid@pennmedicine.upenn.edu
