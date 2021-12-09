@@ -47,6 +47,9 @@ The training can be a time consuming process, depending on the specified batch s
 For each *TrainTestFile.ini, the code will first train the model using the data of subjects specified in the training list. The model will run for the specified number of epochs. Once all epochs are completed, the trained model will be applied to the specified list of test subjects' data and the predictions will be saved in the specified output_subfolder. 
 
 
+
+
+
 Last updated Dec 09 2021
 
 
