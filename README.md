@@ -47,7 +47,21 @@ The training can be a time consuming process, depending on the specified batch s
 For each *TrainTestFile.ini, the code will first train the model using the data of subjects specified in the training list. The model will run for the specified number of epochs. Once all epochs are completed, the trained model will be applied to the specified list of test subjects' data and the predictions will be saved in the specified output_subfolder. 
 
 
+Last updated Dec 09 2021
 
+
+If you use this code, please cite the following: 
+Rashid, T., Abdulkadir, A., Nasrallah, I.M., Ware, J.B., Liu, H., Spincemaille, P., Romero, J.R., Bryan, R.N., Heckbert, S.R. and Habes, M., 2021. DEEPMIR: a deep neural network for differential detection of cerebral microbleeds and iron deposits in MRI. Scientific reports, 11(1), pp.1-14.
+https://www.nature.com/articles/s41598-021-93427-x
+
+
+If you have any questions or concerns, please feel free to contact me through email. 
+
+Tanweer Rashid, PhD
+
+rashidt1@uthscsa.edu
+
+tanweer.rashid@pennmedicine.upenn.edu
 
 
 
